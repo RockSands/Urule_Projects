@@ -1,0 +1,11 @@
+package com.urule.client;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class UruleClientApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(UruleClientApplication.class, args);
+	}
+}
