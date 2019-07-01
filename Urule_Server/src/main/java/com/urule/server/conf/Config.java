@@ -22,9 +22,9 @@ public class Config {
 		return configurer;
 	}
 
-	@Bean
-	@ConfigurationProperties(prefix = "spring.datasource")
-	public DataSource datasource() {
-		return DataSourceBuilder.create().build();
-	}
+//	@Bean
+//	@ConfigurationProperties(prefix = "spring.datasource")
+//	public DataSource datasource() {
+//		return DataSourceBuilder.create().build();
+//	}
 }
